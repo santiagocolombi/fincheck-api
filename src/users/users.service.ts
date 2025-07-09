@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { PrismaService } from 'src/database/prisma.service';
-
+//parte que é responsável pela lógica de negócios ex: crirar um usuário 
 
 @Injectable()
 export class UsersService {
